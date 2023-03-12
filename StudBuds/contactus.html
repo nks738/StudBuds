@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" type="text/css" href="./contactus.css"> -->
+    <link rel = "icon" type = "image/png" href = "./sblogo.png">
+    <link rel = "apple-touch-icon" type = "image/png" href = "./sblogo.png"/>
+    <title>Contact Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+
+.menubar {
+    overflow: hidden;
+    background-color: #0a1914;
+    font-family: "Raleway";
+    font-weight: 900;
+}
+
+.menubar a {
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menubar a:hover {
+    background-color: #bdb76b;
+  }
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+
+
+h1 img{
+    height: 50px;
+    transform: translateY(10px);
+}
+
+.title:visited {
+    text-decoration: none;
+    color: #6495ed;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 1%;
+    margin-bottom: .5%;
+}
+
+body {
+    background-color: #ffebcd;
+    color: #6495ed;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.firstname{
+    font-size: 25px;
+}
+
+.lastname {
+    font-size: 25px;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.comments {
+    font-size: 25px;
+}
+#email {
+    width: 200px;
+}
+.submit{
+    background-color: #974655;
+    color: #ffffff;
+    padding: 14px 20px;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 475px;
+    left: 8px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <h1>
+        <img src="./sblogo.png" />
+        <a class ="title" href="./index.html">Stud Buds</a>
+    </h1>
+        <div class="menubar">
+            <a href="./index.html">Home</a>
+            <a href="./budup.html">Bud Up</a>
+            <a href="./contactus.html">Contact Us</a>
+        </div>
+
+    <h3>Contact Us</h3> 
+    <form>
+        <div>
+            <label class="firstname" for="firstName">First name:</label>
+            <input type="text" name="firstName:" id="firstName" placeholder="John" required>
+            <label class="lastname" for="lastName">Last name:</label>
+            <input type="text" name="lastName:" id="lastName" placeholder="Smith" required>
+        </div>
+        <div>
+            <label class="email" for="email">Email:</label>
+            <input type="email" name="email:" id="email" placeholder="JohnSmith@abcd.com" required>
+        </div>
+        <div>
+            <label class="comments" for="comments">What can we help you with? Describe the problem/Ask your questions:</label>
+        </div>
+            <textarea name="comments" id="comments" cols="105" rows="15" placeholder="i.e. 'My location is incorrect!'" required
+            ></textarea>
+        <div>
+            <input class="submit" type="submit" value="Submit">
+        </div>
+    </form>
+    
+</body>
+</html>

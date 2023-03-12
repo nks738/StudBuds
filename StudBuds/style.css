@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+body{
+    /* transition: background-color 1s; */
+}
+
+.menubar {
+    overflow: hidden;
+    background-color: #0a1914;
+    font-family: "Raleway";
+    font-weight: 900;
+}
+.menubar a {
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menubar a:hover {
+    background-color: #bdb76b;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    
+ }
+ .title:visited {
+     text-decoration: none;
+     color: #6495ed;
+ }
+ h1 img{
+     height: 50px;
+     transform: translateY(10px);
+ }
+ 
+ .about-wrapper img {
+     height: 300px;
+     margin: 0 auto;
+     display: block;
+ }
+ body {
+    background-color: #ffebcd;
+    color: #6495ed;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+ }
+ h3 {
+     color: #6495ed;
+     font-size: 25px;
+     /* position: absolute; */
+     left: 650px;
+     text-align: center;
+     /* margin-left: 10px;
+     margin-right: 100px; */
+ }
+ p.aboutUs {
+    color: #5f9ea0;
+    font-size: 18px;
+    font-weight: 200;
+    /* position: absolute; */
+    /* top: 165px; */
+    /* left: 1px; */
+    text-align:center;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+ }
+.about-wrapper{
+    padding: 0 10vw 0 10vw;
+}
+ button {
+     display: block;
+     background-color: #974655;
+     color: #ffffff;
+     padding: 20px 32px;
+     font-family: "Raleway";
+     text-align: center;
+     font-size: 18px;
+     /* position: absolute; */
+     /* top: 255px;
+     left: 607px; */
+     margin: 0 auto;
+     cursor: pointer;
+     transition: transform 350ms;
+
+ }
+ button:hover{
+     transform: scale(1.05);
+ }
+@media screen and (min-width: 600px){
+    body{
+        /* background-color: green; */
+    }
+    /* (max-width: 600px) */
+
+}

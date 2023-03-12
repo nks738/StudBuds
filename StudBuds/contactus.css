@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+
+
+.menubar {
+    overflow: hidden;
+    background-color: #0a1914;
+    font-family: "Raleway";
+    font-weight: 900;
+}
+
+.menubar a {
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menubar a:hover {
+    background-color: #bdb76b;
+  }
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-family: "Raleway";
+    text-transform: uppercase;
+}
+
+
+h1 img{
+    height: 50px;
+    transform: translateY(10px);
+}
+
+.title:visited {
+    text-decoration: none;
+    color: #6495ed;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 1%;
+    margin-bottom: .5%;
+}
+
+body {
+    background-color: #ffebcd;
+    color: #6495ed;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.firstname{
+    font-size: 25px;
+}
+
+.lastname {
+    font-size: 25px;
+}
+
+.email {
+    font-size: 25px;
+}
+
+.comments {
+    font-size: 25px;
+}
+#email {
+    width: 200px;
+}
+.submit{
+    background-color: #974655;
+    color: #ffffff;
+    padding: 14px 20px;
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 475px;
+    left: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stud Buds!</title>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="icon" type="image/png" href="./sblogo.png">
+  <link rel="apple-touch-icon" type="image/png" href="./sblogo.png" />
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap');
+    
+    .menubar {
+        overflow: hidden;
+        background-color: #0a1914;
+        font-family: "Raleway";
+        font-weight: 900;
+    }
+    .menubar a {
+        float: left;
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .menubar a:hover {
+        background-color: #bdb76b;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        text-decoration: underline;
+        margin-top: 0;
+        margin-bottom: 1%;
+        font-family: "Raleway";
+        text-transform: uppercase;
+        
+     }
+     .title:visited {
+         text-decoration: none;
+         color: #6495ed;
+     }
+     h1 img{
+         height: 50px;
+         transform: translateY(10px);
+     }
+     
+     .about-wrapper img {
+         height: 300px;
+         margin: 0 auto;
+         display: block;
+     }
+     body {
+        background-color: #ffebcd;
+        color: #6495ed;
+        font-family: "Raleway";
+        font-size: 20px;
+        font-weight: 500;
+     }
+     h3 {
+         color: #6495ed;
+         font-size: 25px;
+         /* position: absolute; */
+         left: 650px;
+         text-align: center;
+         /* margin-left: 10px;
+         margin-right: 100px; */
+     }
+     p.aboutUs {
+        color: #5f9ea0;
+        font-size: 18px;
+        font-weight: 200;
+        /* position: absolute; */
+        /* top: 165px; */
+        /* left: 1px; */
+        text-align:center;
+        /* margin-left: 300px;
+        margin-right: 300px; */
+     }
+    .about-wrapper{
+        padding: 0 10vw 0 10vw;
+    }
+     button {
+         display: block;
+         background-color: #974655;
+         color: #ffffff;
+         padding: 20px 32px;
+         font-family: "Raleway";
+         text-align: center;
+         font-size: 18px;
+         /* position: absolute; */
+         /* top: 255px;
+         left: 607px; */
+         margin: 0 auto;
+         cursor: pointer;
+         transition: transform 350ms;
+    
+     }
+     button:hover{
+         transform: scale(1.05);
+     }
+    @media screen and (min-width: 600px){
+      
+    
+    }</style>
+</head>
+
+<body>
+  <h1>
+      <img src="./sblogo.png" />
+      <a class="title" href="./index.html">Stud Buds</a>
+  </h1>
+  
+  <div class="menubar">
+    <a href="./index.html">Home</a>
+    <a href="./budup.html">Bud Up</a>
+    <a href="./contactus.html">Contact Us</a>
+  </div>
+  <div class="about-wrapper">
+    <img src="./sblogo.png"/>
+    <h3>About Us</h3>
+    <p class="aboutUs">
+      At Stud Buds, our mission is to match people together who want to study, or as we like to call it, Bud Up.
+      If you need a study buddy, or none of your friends are up to studying, or you simply don't have friends :(, NEVER
+      FEAR for Stud Buds is HERE!
+    </p>
+    
+    <button onclick="googleLogin()">
+      Login with Google
+    </button>
+  
+  </div>
+
+  <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script src="/__/firebase/7.7.0/firebase-auth.js"></script>
+  <script src="/__/firebase/7.7.0/firebase-database.js"></script>
+  <script src="/__/firebase/7.7.0/firebase-messaging.js"></script>
+  <script src="/__/firebase/7.7.0/firebase-storage.js"></script>
+  <script src="./database.js"></script>
+  <script src="./app.js"></script>
+  
+
+  <!-- initialize the SDK after all desired features are loaded -->
+  <!-- <script defer src ="/__/firebase/init.js"></script> -->
+
+</body>
+
+</html>
